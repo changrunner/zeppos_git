@@ -17,8 +17,8 @@ pytest = ">=6.1.2"
 testfixtures = ">=6.15.0"
 
 [packages]
-gitpython = "==3.1.13"
-zeppos-root = "==0.0.9"
+gitpython = ">=3.1.13"
+zeppos-root = ">=0.0.10"
 cachetools = ">=4.1.1"
 
 [requires]
