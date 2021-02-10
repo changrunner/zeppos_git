@@ -1,10 +1,10 @@
 import unittest
-from zeppos_git.hello_world import HelloWorld
+from zeppos_git.branch import Branch
 
 
 class TestTheProjectMethods(unittest.TestCase):
     def test_get_hello_world_methods(self):
-        self.assertEqual(HelloWorld.get_hello_world(), "Hello World")
+        self.assertEqual("main", Branch.get_current())
 
 
 if __name__ == '__main__':

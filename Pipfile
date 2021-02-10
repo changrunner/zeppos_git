@@ -3,6 +3,11 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[[source]]
+name = "test"
+url = "https://test.pypi.org/simple"
+verify_ssl = true
+
 [dev-packages]
 setuptools = ">=49.6.0"
 wheel = ">=0.35.1"
@@ -12,6 +17,8 @@ pytest = ">=6.1.2"
 testfixtures = ">=6.15.0"
 
 [packages]
+gitpython = "==3.1.13"
+zeppos-root = "==0.0.9"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
